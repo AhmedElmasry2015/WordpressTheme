@@ -1,0 +1,24 @@
+/* general rules*/
+
+body{
+    background-color:#eee;
+}
+
+
+/*end general rules*/
+
+/* start post section*/
+
+
+/* end post section*/
+/* start footer design*/
+.footer{
+    background-color: #333;
+    color:#eee;
+    position: fixed;
+    bottom:0;
+    left:0;
+    padding:20;
+    width:100%;
+}
+/* end footer design*/
