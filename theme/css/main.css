@@ -4,7 +4,6 @@ body{
     background-color:#eee;
 }
 
-
 /*end general rules*/
 
 
@@ -22,8 +21,6 @@ body{
 }
 .contain .carousel .carousel-inner .carousel-item .image-content {
     position: absolute;
-   /* top:90px;
-    left:370px;*/
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50% );
@@ -84,12 +81,17 @@ border:1px solid white;
       margin-bottom: 70px;
 
 }
-.image-section .image-text{
+.image-section .image-textt{
     width:100px;
 }
+@media screen and (min-width: 0px) and (max-width: 770px) { 
+    
+    .image-section{
+        display: none;
+    }
+
+}
 /* End Iamge Section*/
-
-
 
 /* start footer design*/
 .footer{
@@ -106,25 +108,3 @@ border:1px solid white;
 
 
 
-/* start Project section
-.page-title{
-color: #827e7e;
-padding: 20px 50px;
-}
-.profile-image{
-    font-size: 30px;
-color: #827e7e;
-
-}
-.profile-desc{
-    padding-bottom: 50px;
-    color: #827e7e;
-
-}
-.project-par{
-    color:#ccc;
-}
-.container img{
-    height:400px;
-}
-/* End Project section*/

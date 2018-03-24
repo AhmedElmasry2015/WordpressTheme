@@ -76,17 +76,17 @@
     <p class="bord"></p>
     <div class="row image-section text-center">
             <div class="col-md-3">
-                <img class=" image-text img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text5.jpg" alt="Iamge1">
+                <img class=" image-textt img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text5.jpg" alt="Iamge1">
             </div>
             <div class="col-md-3">
-                <img class=" image-text img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text3.png" alt="Iamge1">
+                <img class=" image-textt img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text3.png" alt="Iamge1">
             </div>
             <div class="col-md-3">
-                <img class=" image-text img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text4.png" alt="Iamge1">
+                <img class=" image-textt img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text4.png" alt="Iamge1">
             </div>
             
             <div class="col-md-3">
-                <img class=" image-text img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text5.jpg" alt="Iamge1">
+                <img class=" image-textt img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text5.jpg" alt="Iamge1">
             </div>
     </div>
 
