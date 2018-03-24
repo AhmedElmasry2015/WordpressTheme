@@ -16,7 +16,8 @@
                                   <br> Impedit delectus dolorem commodi eum doloribus tenetur rem illum repellendus.
                                   <br> Cumque sed quasi magnam suscipit illum cupiditate .
                       </p>
-                      <button class="image-button"><a href="<?php bloginfo('template_url'); ?>/project1.php">learm more</a></button>
+                      <button class="image-button popmake-80"> <!--<a href="<?//php bloginfo('template_url'); ?>/project1.php">-->learm more</a></button>
+                     
                     </div>
             </div>
             <div class="carousel-item">
@@ -27,18 +28,18 @@
                                 <br> Impedit delectus dolorem commodi eum doloribus tenetur rem illum repellendus.
                                 <br> Cumque sed quasi magnam suscipit illum cupiditate .
                         </p>
-                        <button class="image-button"><a href="<?php bloginfo('template_url'); ?>/project2.php">learm more</a></button>
+                        <button class="image-button popmake-87"> <!--<a href="<?//php bloginfo('template_url'); ?>/project1.php">-->learm more</a></button>
                     </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/images/one.jpg" alt="Third slide">
+                <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/images/four.jpg" alt="Third slide">
                     <div class=" image-content "><!--d-none d-md-block-->
                         <p class="image-header">Fullwidth Slider Background Image</p>
                         <p class="image-text">30 Lorem ipsum dolor sit amet consectetur adipisicing elit Eaque porro illum eoslaudantium!.
                             <br> Impedit delectus dolorem commodi eum doloribus tenetur rem illum repellendus.
                             <br> Cumque sed quasi magnam suscipit illum cupiditate .
                         </p>
-                        <button class="image-button"><a href="<?php bloginfo('template_url'); ?>/project3.php">learm more</a></button>
+                        <button class="image-button popmake-90">learm more</a></button>
                     </div>
             </div>
             </div>
@@ -75,17 +76,17 @@
     <p class="bord"></p>
     <div class="row image-section text-center">
             <div class="col-md-3">
-                <img src="" alt="Iamge1">
+                <img class=" image-text img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text5.jpg" alt="Iamge1">
             </div>
             <div class="col-md-3">
-                <img src="" alt="Iamge2">
+                <img class=" image-text img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text3.png" alt="Iamge1">
             </div>
             <div class="col-md-3">
-                <img src="" alt="Iamge3">
+                <img class=" image-text img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text4.png" alt="Iamge1">
             </div>
             
             <div class="col-md-3">
-                <img src="" alt="Iamge4">
+                <img class=" image-text img-thumbnail" src="<?php bloginfo('template_url'); ?>/images/text5.jpg" alt="Iamge1">
             </div>
     </div>
 
