@@ -7,10 +7,106 @@ body{
 
 /*end general rules*/
 
-/* start post section*/
+
+/* start Slider Section*/
+.contain{
+    position: relative;
+}
+.contain .carousel-indicators li{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+}
+.contain .carousel .carousel-inner img{
+    height: 400px;
+}
+.contain .carousel .carousel-inner .carousel-item .image-content {
+    position: absolute;
+   /* top:90px;
+    left:370px;*/
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+}
+
+.contain .carousel .carousel-inner .carousel-item .image-content .image-header{
+    font-size: 40px;
+    margin-bottom: 0rem;
+}
+.contain .carousel .carousel-inner .carousel-item .image-content .image-text{
+   line-height: 1.3;
+}
+.contain .carousel .carousel-inner .carousel-item .image-content .image-button{
+width: 124px;
+height: 35px;
+background: transparent;
+color: white;
+cursor: pointer;
+border:1px solid white;
+}
+
+.contain .carousel .carousel-inner .carousel-item .image-content a{
+    text-decoration: none;
+    color:white;
+}
+@media screen and (min-width: 7700px) and (max-width: 1200px) { 
+    .contain .carousel .carousel-inner .carousel-item .image-content .image-header{
+        font-size: 35px;
+    }
+    .contain .carousel .carousel-inner .carousel-item .image-content .image-text{
+        padding:0px 20px;
+    }
+
+}
+@media screen and (min-width: 0px) and (max-width: 770px) { 
+    .contain .carousel .carousel-inner .carousel-item .image-content .image-text{
+        display:none;
+    }
+
+}
+/* End Slider Section*/
+
+/* Start Iamge Section*/
+
+.text-section{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px; 
+}
+.bord{
+    border-bottom: 1px solid #ccc;
+    padding-top: 15px;
+
+}
+
+/* End Iamge Section*/
 
 
-/* end post section*/
+/* start Project section*/
+.page-title{
+color: #827e7e;
+padding: 20px 50px;
+}
+.profile-image{
+    font-size: 30px;
+color: #827e7e;
+
+}
+.profile-desc{
+    padding-bottom: 50px;
+    color: #827e7e;
+
+}
+.project-par{
+    color:#ccc;
+}
+.container img{
+    height:400px;
+}
+/* End Project section*/
+
 /* start footer design*/
 .footer{
     background-color: #333;
